@@ -8,53 +8,55 @@
 import Foundation
 
 //FUNCTIONS
-func toInch(Converting fromLength: Double, From fromUnit: Double) -> Double {
+func toInch(Converting fromLength: Double, From fromUnit: LengthUnit) -> Double {
     var toLength = 0.0
     switch fromUnit {
-    case 1 :
+    case .milimeter :
         toLength = fromLength / 25.4
-    case 2 :
+    case .centimeter :
         toLength = fromLength / 2.54
-    case 3 :
+    case .meter :
         toLength = fromLength * 39.37
-    case 4 :
+    case .kilometer :
         toLength = fromLength * 39370
-    case 5 :
+    case .inch :
         toLength = fromLength
-    case 6 :
+    case .feet :
         toLength = fromLength * 12
-    case 7 :
+    case .yard :
         toLength = fromLength * 36
-    case 8 :
+    case .mile :
         toLength = fromLength * 63360
-    default :
-        break
     }
     return toLength
 }
 
-func fromInch(Converting fromLength: Double, To toUnit: Double) -> Double {
+func fromInch(Converting fromLength: Double, To toUnit: LengthUnit) -> String {
     var toLength = 0.0
     switch toUnit {
-    case 1 :
+    case .milimeter :
         toLength = fromLength * 25.4
-    case 2 :
+    case .centimeter :
         toLength = fromLength * 2.54
-    case 3 :
+    case .meter :
         toLength = fromLength / 39.37
-    case 4 :
+    case .kilometer :
         toLength = fromLength / 39370
-    case 5 :
+    case .inch :
         toLength = fromLength
-    case 6 :
+    case .feet :
         toLength = fromLength / 12
-    case 7 :
+    case .yard :
         toLength = fromLength / 36
-    case 8 :
+    case .mile :
         toLength = fromLength / 63360
-    default :
-        break
     }
-    return toLength
+    return String(toLength)
 } //Identical with 'toInch' but only operators reversed (multiplication to division and vice versa)
+
+func convert(fromLength: Double, fromUnit: LengthUnit, toUnit: LengthUnit) -> String {
+    let inchValue = toInch(Converting: fromLength, From: fromUnit)
+    let result = fromInch(Converting: inchValue, To: toUnit)
+    return result
+}
 

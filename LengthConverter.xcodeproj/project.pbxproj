@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5AA8D225D6F0EA00DF36FD /* enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AA8D125D6F0EA00DF36FD /* enumeration.swift */; };
+		7F5AA8DF25D6FA8B00DF36FD /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF2A2025CCA36000DA6289 /* functions.swift */; };
+		7F5AA8E225D6FA8D00DF36FD /* enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AA8D125D6F0EA00DF36FD /* enumeration.swift */; };
+		7F92737325D6F02500718553 /* iOSLengthConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F92737225D6F02500718553 /* iOSLengthConverterApp.swift */; };
+		7F92737525D6F02500718553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F92737425D6F02500718553 /* ContentView.swift */; };
+		7F92737725D6F02800718553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F92737625D6F02800718553 /* Assets.xcassets */; };
+		7F92737A25D6F02800718553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F92737925D6F02800718553 /* Preview Assets.xcassets */; };
 		7FEF2A1625CCA33300DA6289 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF2A1525CCA33300DA6289 /* main.swift */; };
 		7FEF2A1E25CCA35300DA6289 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF2A1D25CCA35300DA6289 /* extensions.swift */; };
 		7FEF2A2125CCA36000DA6289 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF2A2025CCA36000DA6289 /* functions.swift */; };
@@ -25,6 +32,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F5AA8D125D6F0EA00DF36FD /* enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumeration.swift; sourceTree = "<group>"; };
+		7F92737025D6F02500718553 /* iOSLengthConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLengthConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F92737225D6F02500718553 /* iOSLengthConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLengthConverterApp.swift; sourceTree = "<group>"; };
+		7F92737425D6F02500718553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F92737625D6F02800718553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F92737925D6F02800718553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F92737B25D6F02800718553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FEF2A1225CCA33200DA6289 /* LengthConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LengthConverter; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEF2A1525CCA33300DA6289 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7FEF2A1D25CCA35300DA6289 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
@@ -32,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F92736D25D6F02500718553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEF2A0F25CCA33200DA6289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F92737125D6F02500718553 /* iOSLengthConverter */ = {
+			isa = PBXGroup;
+			children = (
+				7F92737225D6F02500718553 /* iOSLengthConverterApp.swift */,
+				7F92737425D6F02500718553 /* ContentView.swift */,
+				7F92737625D6F02800718553 /* Assets.xcassets */,
+				7F92737B25D6F02800718553 /* Info.plist */,
+				7F92737825D6F02800718553 /* Preview Content */,
+			);
+			path = iOSLengthConverter;
+			sourceTree = "<group>";
+		};
+		7F92737825D6F02800718553 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F92737925D6F02800718553 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		7FEF2A0925CCA33200DA6289 = {
 			isa = PBXGroup;
 			children = (
+				7F5AA8D125D6F0EA00DF36FD /* enumeration.swift */,
+				7FEF2A2025CCA36000DA6289 /* functions.swift */,
 				7FEF2A1425CCA33300DA6289 /* LengthConverter */,
+				7F92737125D6F02500718553 /* iOSLengthConverter */,
 				7FEF2A1325CCA33200DA6289 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7FEF2A1225CCA33200DA6289 /* LengthConverter */,
+				7F92737025D6F02500718553 /* iOSLengthConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +106,8 @@
 		7FEF2A1425CCA33300DA6289 /* LengthConverter */ = {
 			isa = PBXGroup;
 			children = (
-				7FEF2A1525CCA33300DA6289 /* main.swift */,
 				7FEF2A1D25CCA35300DA6289 /* extensions.swift */,
-				7FEF2A2025CCA36000DA6289 /* functions.swift */,
+				7FEF2A1525CCA33300DA6289 /* main.swift */,
 			);
 			path = LengthConverter;
 			sourceTree = "<group>";
@@ -71,6 +115,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F92736F25D6F02500718553 /* iOSLengthConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F92737C25D6F02800718553 /* Build configuration list for PBXNativeTarget "iOSLengthConverter" */;
+			buildPhases = (
+				7F92736C25D6F02500718553 /* Sources */,
+				7F92736D25D6F02500718553 /* Frameworks */,
+				7F92736E25D6F02500718553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLengthConverter;
+			productName = iOSLengthConverter;
+			productReference = 7F92737025D6F02500718553 /* iOSLengthConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7FEF2A1125CCA33200DA6289 /* LengthConverter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FEF2A1925CCA33300DA6289 /* Build configuration list for PBXNativeTarget "LengthConverter" */;
@@ -97,6 +158,9 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					7F92736F25D6F02500718553 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					7FEF2A1125CCA33200DA6289 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -116,11 +180,35 @@
 			projectRoot = "";
 			targets = (
 				7FEF2A1125CCA33200DA6289 /* LengthConverter */,
+				7F92736F25D6F02500718553 /* iOSLengthConverter */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		7F92736E25D6F02500718553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F92737A25D6F02800718553 /* Preview Assets.xcassets in Resources */,
+				7F92737725D6F02800718553 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7F92736C25D6F02500718553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F92737525D6F02500718553 /* ContentView.swift in Sources */,
+				7F92737325D6F02500718553 /* iOSLengthConverterApp.swift in Sources */,
+				7F5AA8DF25D6FA8B00DF36FD /* functions.swift in Sources */,
+				7F5AA8E225D6FA8D00DF36FD /* enumeration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEF2A0E25CCA33200DA6289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,12 +216,62 @@
 				7FEF2A1625CCA33300DA6289 /* main.swift in Sources */,
 				7FEF2A1E25CCA35300DA6289 /* extensions.swift in Sources */,
 				7FEF2A2125CCA36000DA6289 /* functions.swift in Sources */,
+				7F5AA8D225D6F0EA00DF36FD /* enumeration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7F92737D25D6F02800718553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSLengthConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 24S956KH53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSLengthConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.yeseokim.iOSLengthConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F92737E25D6F02800718553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSLengthConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 24S956KH53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOSLengthConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.yeseokim.iOSLengthConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7FEF2A1725CCA33300DA6289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -274,6 +412,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F92737C25D6F02800718553 /* Build configuration list for PBXNativeTarget "iOSLengthConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F92737D25D6F02800718553 /* Debug */,
+				7F92737E25D6F02800718553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FEF2A0D25CCA33200DA6289 /* Build configuration list for PBXProject "LengthConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
